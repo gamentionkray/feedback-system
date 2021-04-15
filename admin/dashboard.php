@@ -1,5 +1,8 @@
 <?php
 include('session.php');
+
+$sql = "SELECT * FROM user_feedback";
+$result = $conn->query($sql);
 ?>
 
 <!DOCTYPE html>
@@ -23,49 +26,41 @@ include('session.php');
         <table class="kt-dashboard-table">
             <thead>
                 <tr>
-                    <th>Column 1</th>
-                    <th>Column 2</th>
-                    <th>Column 3</th>
-                    <th>Column 4</th>
-                    <th>Column 5</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile Number</th>
+                    <th>Feedback 1</th>
+                    <th>Feedback 2</th>
+                    <th>Feedback 3</th>
+                    <th>Feedback 4</th>
+                    <th>Feedback 5</th>
+                    <th>Feedback 6</th>
+                    <th>Comments</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Cell 1</td>
-                    <td>Cell 2</td>
-                    <td>Cell 3</td>
-                    <td>Cell 4</td>
-                    <td>Cell 5</td>
-                </tr>
-                <tr>
-                    <td>Cell 1</td>
-                    <td>Cell 2</td>
-                    <td>Cell 3</td>
-                    <td>Cell 4</td>
-                    <td>Cell 5</td>
-                </tr>
-                <tr>
-                    <td>Cell 1</td>
-                    <td>Cell 2</td>
-                    <td>Cell 3</td>
-                    <td>Cell 4</td>
-                    <td>Cell 5</td>
-                </tr>
-                <tr>
-                    <td>Cell 1</td>
-                    <td>Cell 2</td>
-                    <td>Cell 3</td>
-                    <td>Cell 4</td>
-                    <td>Cell 5</td>
-                </tr>
-                <tr>
-                    <td>Cell 1</td>
-                    <td>Cell 2</td>
-                    <td>Cell 3</td>
-                    <td>Cell 4</td>
-                    <td>Cell 5</td>
-                </tr>
+                <?php
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<tr>";
+                        echo "<td>" . $row["user_name"] . "</td>";
+                        echo "<td>" . $row["user_email"] . "</td>";
+                        echo "<td>" . $row["user_mobile"] . "</td>";
+                        echo "<td>" . $row["user_feedback1"] . "</td>";
+                        echo "<td>" . $row["user_feedback2"] . "</td>";
+                        echo "<td>" . $row["user_feedback3"] . "</td>";
+                        echo "<td>" . $row["user_feedback4"] . "</td>";
+                        echo "<td>" . $row["user_feedback5"] . "</td>";
+                        echo "<td>" . $row["user_feedback6"] . "</td>";
+                        echo "<td>" . $row["user_comments"] . "</td>";
+                        echo "</tr>";
+                    }
+                } else {
+                    echo "0 results";
+                }
+
+                $conn->close();
+                ?>
             </tbody>
         </table>
     </div>

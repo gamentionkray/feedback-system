@@ -24,7 +24,7 @@ a {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "header-logo . .";
+  grid-template-areas: "header-logo header-navlinks header-logout";
   box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.8),
     6px 6px 6px rgba(0, 0, 0, 0.2);
 }
@@ -43,6 +43,7 @@ a {
 }
 
 .kt-header-navlinks a {
+  grid-area: header-navlinks;
   padding: 10px;
   margin: 0 10px;
   font-size: 1.1em;
@@ -59,6 +60,7 @@ a {
 }
 
 .kt-logout {
+  grid-area: header-logout;
   justify-self: end;
   padding: 10px;
   margin: 0 10px;
@@ -105,11 +107,13 @@ table.kt-dashboard-table thead {
   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
 }
 table.kt-dashboard-table th {
-  padding: 7px;
+  padding: 15px;
+  white-space: nowrap;
 }
 
 table.kt-dashboard-table > tbody > tr > td {
-  padding: 10px;
+  padding: 20px;
   font-size: 14px;
+  white-space: nowrap;
   position: relative;
 }
