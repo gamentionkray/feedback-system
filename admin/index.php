@@ -42,6 +42,7 @@ if (isset($_POST['login'])) {
     <meta name="viewport" content="width=device-width, 
     initial-scale=1" />
     <link rel="stylesheet" href="style.css">
+    <script src="../assets/js/app.js"></script>
     <title>Admin Login</title>
 </head>
 
