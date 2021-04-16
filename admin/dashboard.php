@@ -57,7 +57,18 @@ $result = $conn->query($sql);
                         echo "</tr>";
                     }
                 } else {
-                    echo "0 results";
+                    echo "<tr>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "<td>NA</td>";
+                    echo "</tr>";
                 }
 
                 $conn->close();

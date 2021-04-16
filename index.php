@@ -34,28 +34,28 @@ include_once "includes/functions.php"
     </div>
 
     <div class="kt-sub-title">
-      Please help us to serve you better by taking a couple of minutes.
+      Please help us to teach you better by taking a couple of minutes.
     </div>
     <!-- Questions First Block -->
     <div class="kt-questions">
       <!-- First -->
       <div class="kt-question">
         <div class="kt-text">
-          What is your overall impression about the lecturer?
+          Are you satisfied with the teaching staff and their teaching methods?
         </div>
         <div class="radiogroup">
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback1" id="a1" value="excellent" />
+            <input class="state" type="radio" name="feedback1" id="a1" value="Highly Satisfied" />
             <label class="label" for="a1">
               <div class="indicator"></div>
-              <span class="text">Excellent</span>
+              <span class="text">Highly Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback1" id="b1" value="good" />
+            <input class="state" type="radio" name="feedback1" id="b1" value="Satisfied" />
             <label class="label" for="b1">
               <div class="indicator"></div>
-              <span class="text">Good</span>
+              <span class="text">Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
@@ -66,10 +66,17 @@ include_once "includes/functions.php"
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback1" id="d1" value="poor" />
+            <input class="state" type="radio" name="feedback1" id="d1" value="Dissatisfied" />
             <label class="label" for="d1">
               <div class="indicator"></div>
-              <span class="text">Poor</span>
+              <span class="text">Dissatisfied</span>
+            </label>
+          </div>
+          <div class="wrapper">
+            <input class="state" type="radio" name="feedback1" id="d1" value="Dissatisfied" />
+            <label class="label" for="d1">
+              <div class="indicator"></div>
+              <span class="text">Highly Dissatisfied</span>
             </label>
           </div>
         </div>
@@ -77,21 +84,21 @@ include_once "includes/functions.php"
       <!-- Second -->
       <div class="kt-question">
         <div class="kt-text">
-          What is your overall impression about the lecturer?
+          How satisfied are you with the facilities provided by the college?
         </div>
         <div class="radiogroup">
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback2" id="a2" value="excellent" />
+            <input class="state" type="radio" name="feedback2" id="a2" value="Highly Satisfied" />
             <label class="label" for="a2">
               <div class="indicator"></div>
-              <span class="text">Excellent</span>
+              <span class="text">Highly Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback2" id="b2" value="good" />
+            <input class="state" type="radio" name="feedback2" id="b2" value="Satisfied" />
             <label class="label" for="b2">
               <div class="indicator"></div>
-              <span class="text">Good</span>
+              <span class="text">Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
@@ -102,10 +109,17 @@ include_once "includes/functions.php"
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback2" id="d2" value="poor" />
+            <input class="state" type="radio" name="feedback2" id="d2" value="Dissatisfied" />
             <label class="label" for="d2">
               <div class="indicator"></div>
-              <span class="text">Poor</span>
+              <span class="text">Dissatisfied</span>
+            </label>
+          </div>
+          <div class="wrapper">
+            <input class="state" type="radio" name="feedback1" id="d1" value="Dissatisfied" />
+            <label class="label" for="d1">
+              <div class="indicator"></div>
+              <span class="text">Highly Dissatisfied</span>
             </label>
           </div>
         </div>
@@ -118,21 +132,21 @@ include_once "includes/functions.php"
       <!-- First -->
       <div class="kt-question">
         <div class="kt-text">
-          What is your overall impression about the lecturer?
+          Do you feel it is easier to register for different clubs within the college?
         </div>
         <div class="radiogroup">
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback3" id="a3" value="excellent" />
+            <input class="state" type="radio" name="feedback3" id="a3" value="Highly Satisfied" />
             <label class="label" for="a3">
               <div class="indicator"></div>
-              <span class="text">Excellent</span>
+              <span class="text">Highly Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback3" id="b3" value="good" />
+            <input class="state" type="radio" name="feedback3" id="b3" value="Satisfied" />
             <label class="label" for="b3">
               <div class="indicator"></div>
-              <span class="text">Good</span>
+              <span class="text">Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
@@ -143,10 +157,17 @@ include_once "includes/functions.php"
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback3" id="d3" value="poor" />
+            <input class="state" type="radio" name="feedback3" id="d3" value="Dissatisfied" />
             <label class="label" for="d3">
               <div class="indicator"></div>
-              <span class="text">Poor</span>
+              <span class="text">Dissatisfied</span>
+            </label>
+          </div>
+          <div class="wrapper">
+            <input class="state" type="radio" name="feedback1" id="d1" value="Dissatisfied" />
+            <label class="label" for="d1">
+              <div class="indicator"></div>
+              <span class="text">Highly Dissatisfied</span>
             </label>
           </div>
         </div>
@@ -154,21 +175,21 @@ include_once "includes/functions.php"
       <!-- Second -->
       <div class="kt-question">
         <div class="kt-text">
-          What is your overall impression about the lecturer?
+          Are you satisfied with the teaching staff and their teaching practices?
         </div>
         <div class="radiogroup">
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback4" id="a4" value="excellent" />
+            <input class="state" type="radio" name="feedback4" id="a4" value="Highly Satisfied" />
             <label class="label" for="a4">
               <div class="indicator"></div>
-              <span class="text">Excellent</span>
+              <span class="text">Highly Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback4" id="b4" value="good" />
+            <input class="state" type="radio" name="feedback4" id="b4" value="Satisfied" />
             <label class="label" for="b4">
               <div class="indicator"></div>
-              <span class="text">Good</span>
+              <span class="text">Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
@@ -179,10 +200,17 @@ include_once "includes/functions.php"
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback4" id="d4" value="poor" />
+            <input class="state" type="radio" name="feedback4" id="d4" value="Dissatisfied" />
             <label class="label" for="d4">
               <div class="indicator"></div>
-              <span class="text">Poor</span>
+              <span class="text">Dissatisfied</span>
+            </label>
+          </div>
+          <div class="wrapper">
+            <input class="state" type="radio" name="feedback1" id="d1" value="Dissatisfied" />
+            <label class="label" for="d1">
+              <div class="indicator"></div>
+              <span class="text">Highly Dissatisfied</span>
             </label>
           </div>
         </div>
@@ -195,21 +223,21 @@ include_once "includes/functions.php"
       <!-- First -->
       <div class="kt-question">
         <div class="kt-text">
-          What is your overall impression about the lecturer?
+          How satisfied are you with the cleanliness and variety of food items available in the cafeteria?
         </div>
         <div class="radiogroup">
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback5" id="a5" value="excellent" />
+            <input class="state" type="radio" name="feedback5" id="a5" value="Highly Satisfied" />
             <label class="label" for="a5">
               <div class="indicator"></div>
-              <span class="text">Excellent</span>
+              <span class="text">Highly Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback5" id="b5" value="good" />
+            <input class="state" type="radio" name="feedback5" id="b5" value="Satisfied" />
             <label class="label" for="b5">
               <div class="indicator"></div>
-              <span class="text">Good</span>
+              <span class="text">Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
@@ -220,10 +248,17 @@ include_once "includes/functions.php"
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback5" id="d5" value="poor" />
+            <input class="state" type="radio" name="feedback5" id="d5" value="Dissatisfied" />
             <label class="label" for="d5">
               <div class="indicator"></div>
-              <span class="text">Poor</span>
+              <span class="text">Dissatisfied</span>
+            </label>
+          </div>
+          <div class="wrapper">
+            <input class="state" type="radio" name="feedback1" id="d1" value="Dissatisfied" />
+            <label class="label" for="d1">
+              <div class="indicator"></div>
+              <span class="text">Highly Dissatisfied</span>
             </label>
           </div>
         </div>
@@ -231,21 +266,21 @@ include_once "includes/functions.php"
       <!-- Second -->
       <div class="kt-question">
         <div class="kt-text">
-          What is your overall impression about the lecturer?
+          How satisfied are you with the projects provided by the faculty?
         </div>
         <div class="radiogroup">
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback6" id="a6" value="excellent" />
+            <input class="state" type="radio" name="feedback6" id="a6" value="Highly Satisfied" />
             <label class="label" for="a6">
               <div class="indicator"></div>
-              <span class="text">Excellent</span>
+              <span class="text">Highly Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback6" id="b6" value="good" />
+            <input class="state" type="radio" name="feedback6" id="b6" value="Satisfied" />
             <label class="label" for="b6">
               <div class="indicator"></div>
-              <span class="text">Good</span>
+              <span class="text">Satisfied</span>
             </label>
           </div>
           <div class="wrapper">
@@ -256,10 +291,17 @@ include_once "includes/functions.php"
             </label>
           </div>
           <div class="wrapper">
-            <input class="state" type="radio" name="feedback6" id="d6" value="poor" />
+            <input class="state" type="radio" name="feedback6" id="d6" value="Dissatisfied" />
             <label class="label" for="d6">
               <div class="indicator"></div>
-              <span class="text">Poor</span>
+              <span class="text">Dissatisfied</span>
+            </label>
+          </div>
+          <div class="wrapper">
+            <input class="state" type="radio" name="feedback1" id="d1" value="Dissatisfied" />
+            <label class="label" for="d1">
+              <div class="indicator"></div>
+              <span class="text">Highly Dissatisfied</span>
             </label>
           </div>
         </div>

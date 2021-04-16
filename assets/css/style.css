@@ -17,6 +17,7 @@ body {
 }
 
 .kt-div {
+  width: 75%;
   padding: 20px 35px 15px 35px;
   margin-top: 20px;
   border-radius: 35px;
@@ -66,6 +67,8 @@ body {
 }
 
 .kt-question {
+  width: 50%;
+  justify-self: start;
   padding: 20px;
 }
 
@@ -182,6 +185,7 @@ body {
   height: 30px;
   width: 30px;
   box-shadow: -8px -4px 8px 0px #ffffff, 8px 4px 12px 0px #d1d9e6;
+  background-color: #d1d9e6;
   overflow: hidden;
 }
 
